@@ -1,10 +1,11 @@
 from enum import Enum
 
 
-class SystemType(Enum):
+class SystemArchitecture(Enum):
     MONOLITH = "monolith"
     MODULAR_MONOLITH = "modular_monolith"
     MICROSERVICES = "microservices"
+    SINGLE_MICROSERVICE = "single_microservice"
 
     @classmethod
     def choices(cls):

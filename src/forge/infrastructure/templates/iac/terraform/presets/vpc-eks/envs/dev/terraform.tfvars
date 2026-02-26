@@ -1,0 +1,3 @@
+aws_region   = "us-east-1"
+aws_profile  = "dev"
+project_name = "vpc-eks-dev"

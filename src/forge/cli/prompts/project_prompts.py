@@ -1,5 +1,5 @@
 from forge.domain.architecture import Architecture
-from forge.domain.system_type import SystemType
+from forge.src.forge.domain.system_architecture import SystemType
 import questionary
 
 
@@ -31,16 +31,6 @@ def ask_language():
             "Go",
             "Node.js",
             "Nest.js"
-        ]
-    ).ask()
-    
-def ask_code_quality_level():
-    return questionary.select(
-        "Code quality level:",
-        choices=[
-            "Minimal",
-            "Standard ⭐",
-            "Strict",
         ]
     ).ask()
 

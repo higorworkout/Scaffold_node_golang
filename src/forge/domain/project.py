@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from forge.domain.architecture import Architecture
-from forge.domain.system_type import SystemType
+from forge.src.forge.domain.system_architecture import SystemType
 
 
 @dataclass

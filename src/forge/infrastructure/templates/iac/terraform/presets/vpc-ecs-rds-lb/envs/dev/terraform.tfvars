@@ -1,0 +1,9 @@
+aws_region   = "us-east-1"
+aws_profile  = "dev"
+project_name = "vpc-ecs-dev"
+project_name    = "myapp"
+db_password     = "postgres123"
+container_image = "nginx"
+
+domain_name = "api.seudominio.com"
+zone_id     = "ZXXXXXXXX"
